@@ -212,3 +212,6 @@ PRODUCT_PACKAGES +=  \
     vendor.qti.hardware.bluetooth_dun-V1.0-java \
     libbtconfigstore \
     libbluetooth_qti
+    
+PRODUCT_PRODUCT_PROPERTIES += \
+  ro.control_privapp_permissions=log
