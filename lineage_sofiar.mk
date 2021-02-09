@@ -87,6 +87,15 @@ TARGET_VENDOR := motorola
 PRODUCT_PRODUCT_PROPERTIES += \
     debug.sf.enable_gl_backpressure=0 \
     debug.sf.enable_hwc_vds=1 \
-    debug.sf.latch_unsignaled=1
+    debug.sf.latch_unsignaled=1 \
+    vendor.camera.aux.packagelist=com.android.settings,com.motorola.camera2,com.motorola.camera3 \
+    ro.config.use_compaction=true \
+    ro.config.compact_action_1=4 \
+    ro.config.compact_action_2=2 \
+    ro.lmk.kill_heaviest_task=true \
+    ro.lmk.thrashing_limit=60 \
+    ro.lmk.swap_free_low_percentage=20 \
+    ro.lmk.swap_util_max=80 \
+    ro.lmk.psi_complete_stall_ms=80
 
 $(call inherit-product, vendor/motorola/sofiar/sofiar-vendor.mk)
