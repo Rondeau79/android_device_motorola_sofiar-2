@@ -262,3 +262,5 @@ etc/permissions/com.qti.snapdragon.sdk.display.xml
 
 -app/MotoDolbyV3/MotoDolbyV3.apk
 
+-priv-app/MotoStylus/MotoStylus.apk|baa789a5a9b746a51cdf838f92ece63f6f3786ed
+
