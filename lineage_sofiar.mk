@@ -63,9 +63,6 @@ DEVICE_PACKAGE_OVERLAYS += device/motorola/sofiar/overlay/device
 # Inherit from hardware-specific part of the product configuration
 $(call inherit-product, device/motorola/sofiar/device.mk)
 
-#Overlays
-DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay-lineage
-
 PRODUCT_SHIPPING_API_LEVEL := 29
 
 # Discard inherited values and use our own instead.
@@ -102,3 +99,6 @@ PRODUCT_PRODUCT_PROPERTIES += \
     ro.lmk.psi_complete_stall_ms=80
 
 $(call inherit-product, vendor/motorola/sofiar/sofiar-vendor.mk)
+
+#Overlays
+DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay-lineage
