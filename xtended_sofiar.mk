@@ -59,6 +59,7 @@ BOARD_USES_RECOVERY_AS_BOOT := false
 AB_OTA_UPDATER := true
 
 DEVICE_PACKAGE_OVERLAYS += device/motorola/sofiar/overlay/device
+DEVICE_PACKAGE_OVERLAYS += device/motorola/sofiar/overlay-lineage  
 
 # Inherit from hardware-specific part of the product configuration
 $(call inherit-product, device/motorola/sofiar/device.mk)
