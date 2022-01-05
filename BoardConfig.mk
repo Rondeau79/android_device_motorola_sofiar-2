@@ -18,6 +18,9 @@
 # device-specific aspects (drivers) with a device-agnostic
 # product configuration (apps).
 #
+
+BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES := true
+
 DEVICE_PATH := device/motorola/sofiar
 
 TARGET_NO_BOOTLOADER := true
